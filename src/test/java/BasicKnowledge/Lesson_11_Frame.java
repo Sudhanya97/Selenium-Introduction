@@ -9,10 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 public class Lesson_11_Frame {
 
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void test11() throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -27,7 +29,7 @@ public class Lesson_11_Frame {
 		act.dragAndDrop(drag, drop).perform();
 		driver.switchTo().defaultContent();
 		driver.findElement(By.linkText("Accept")).click();
-		
+		driver.quit();
 	}
 	
 }
