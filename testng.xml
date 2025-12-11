@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="BasicKnowledge.Lesson_05_AutoSuggestive_Dropdown"/>
+      <class name="BasicKnowledge.Lesson_03_Updated_Dropdown"/>
+      <class name="BasicKnowledge.Lesson_02_StaticDropdown"/>
+      <class name="BasicKnowledge.Lesson_04_Dynamic_Dropdown"/>
+      <class name="BasicKnowledge.Lesson_01_WindowActivities"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

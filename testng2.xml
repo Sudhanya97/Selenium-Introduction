@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="BasicKnowledge.Lesson_09_Actions"/>
+      <class name="BasicKnowledge.Lesson_06_Checkbox"/>
+      <class name="BasicKnowledge.Lesson_08_Alert"/>
+      <class name="BasicKnowledge.Lesson_07_Enable_Disable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
